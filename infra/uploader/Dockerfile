@@ -1,4 +1,4 @@
-from ubuntu:16.04
+from ubuntu:xenial-20210114
 
 RUN apt-get update && apt-get upgrade -y
 RUN apt-get install -y curl
